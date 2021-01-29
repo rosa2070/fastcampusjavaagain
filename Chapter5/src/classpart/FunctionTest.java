@@ -36,6 +36,6 @@ public class FunctionTest {
 		
 		System.out.println(total);
 		System.out.println(num);
-	}
+	
 
 }
