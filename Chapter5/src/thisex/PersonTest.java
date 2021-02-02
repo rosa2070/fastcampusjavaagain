@@ -13,7 +13,7 @@ public class PersonTest {
 
 		
 		Person p = personLee.getSelf();
-		System.out.println(p)
+		System.out.println(p);
 	}
 
 }
