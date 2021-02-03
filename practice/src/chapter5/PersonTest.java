@@ -15,6 +15,6 @@ public class PersonTest {
 		System.out.println("°áÈ¥ ¿©ºÎ: " + person.isMarried);
 		System.out.println("ÀÚ³à ¼ö: " + person.numberOfChildren);
 
-	}
+	
 
 }
