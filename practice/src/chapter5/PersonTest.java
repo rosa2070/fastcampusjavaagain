@@ -16,5 +16,5 @@ public class PersonTest {
 		System.out.println("ÀÚ³à ¼ö: " + person.numberOfChildren);
 
 	
-
+	}
 }
