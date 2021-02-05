@@ -26,7 +26,7 @@ public class StudentTest {
 		
 		studentLee.showStudentInfo();
 		studentKim.showStudentInfo();
-		studentCho.showStudentInfo()
+		studentCho.showStudentInfo();
 		
 
 	}
