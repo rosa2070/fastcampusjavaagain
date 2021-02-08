@@ -26,4 +26,4 @@ public class Genesis extends Car {
 		
 	}
 
-}
+
