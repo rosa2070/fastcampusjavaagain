@@ -4,14 +4,12 @@ public abstract class Calculator implements Calc{
 
 	@Override
 	public int add(int num1, int num2) {
-		// TODO Auto-generated method stub
-		return 0;
+		return num1 + num2;
 	}
 
 	@Override
-	public int subtract(int num1, int num2) {
-		// TODO Auto-generated method stub
-		return 0;
+	public int substract(int num1, int num2) {
+		return num1 - num2;
 	}
 
 }
