@@ -1,15 +1,15 @@
-package collection.set;
+package collection.hashmap;
 
-public class MemberHashSetTest {
+public class MemberHashMapTest {
 
 	public static void main(String[] args) {
 
-		MemberHashSet manager = new MemberHashSet();
+		MemberHashMap manager = new MemberHashMap();
 		
+		Member memberPark = new Member(300, "Park");
 		Member memberLee = new Member(100, "Lee");
 		Member memberKim = new Member(200, "Kim");
-		Member memberPark = new Member(300, "Park");
-		Member memberPark2 = new Member(300, "Park");
+		Member memberPark2 = new Member(400, "Park");
 
 		
 		manager.addMember(memberLee);
@@ -22,7 +22,6 @@ public class MemberHashSetTest {
 		
 		manager.removeMember(200);
 		manager.showAllMember();
-
 
 
 
