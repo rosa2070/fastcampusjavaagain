@@ -1,6 +1,8 @@
-package collection;
+package collection.treeset;
 
-public class Member {
+import java.util.Comparator;
+
+public class Member implements Comparator<Member>{
 	
 	private int memberId;
 	private String memberName;
@@ -27,22 +29,16 @@ public class Member {
 	public String toString() {
 		return memberName + "회원님의 아이디는" + memberId + "입니다.";
 	}
+	/*@Override
+	public int compareTo(Member member) {
+		return this.memberName.compareTo(member.getMemberName());
+	}*/
+	
 	@Override
-	public int hashCode() {
-		return memberId;
-	}
-	@Override
-	public boolean equals(Object obj) {
+	public int compare(Member member1, Member member2) {
 
-		if (obj instanceof Member) {
-			Member member = (Member)obj;
-			return (this.memberId == member.memberId);
-		}
-		
-		return false;
+		return (member1.memberId - member2.memberId);
 	}
-	
-	
 	
 
 }
