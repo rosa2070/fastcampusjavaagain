@@ -24,4 +24,4 @@ public class TravelTest {
 		
 		customerList.stream().filter(c->c.getAge() >= 20).map(c->c.getName()).sorted().forEach(s->System.out.println(s));
 	}
-
+}
